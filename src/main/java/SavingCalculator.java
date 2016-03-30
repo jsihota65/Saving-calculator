@@ -33,7 +33,7 @@ public class SavingCalculator {
 	
 	private static void requestToContinue(){
         while (true) {
-            System.out.print("\nWould you like to calculate another mortgage?");
+            System.out.print("\nWould you like to calculate again?");
             String input = scanner.nextLine();
             if (input.equalsIgnoreCase("Yes") || input.equalsIgnoreCase("Y")) {
                 requestSavingInfo();
