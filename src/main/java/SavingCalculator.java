@@ -63,7 +63,7 @@ public class SavingCalculator {
 			yearlyBalance =+ monthlyBalance;
 			yearlyBalance = Math.floor(yearlyBalance * 100)/100;
 			
-			System.out.println("Year" +year + ": " + yearlyBalance);
+			System.out.println("Year" +year + ": " + "$" + yearlyBalance);
 			year++;
 		}
 				
@@ -82,7 +82,7 @@ public class SavingCalculator {
 		String rateInput = scanner.nextLine();
 		interestRate = Double.parseDouble(rateInput);
 		
-		System.out.println("Please enter the term in years: ");
+		System.out.println("Please enter number of years to calculate: ");
 		String termInput = scanner.nextLine();
 		termInYears = Integer.parseInt(termInput);
 		
